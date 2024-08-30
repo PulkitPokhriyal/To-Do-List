@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url(./src/assets/img/bg-new.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: 100vh;
+    }
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
